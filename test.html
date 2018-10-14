@@ -7,13 +7,14 @@
     <title>Testing CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <main>
-        <section>
-            <h1 class="text-center text-blue">Login</h1>
+    <main> <!--All Page Content-->
+        <h1 class="page-header text-center text-blue">Login Page</h1>
+        <section> <!--User Login Form-->
             <form action="">
                 <label for="email">Email</label>
                 <input class="credential-input" type="email" name="email" placeholder="example@email.com" required>
@@ -21,9 +22,8 @@
                 <input class="credential-input" type="password" name="password" placeholder="Must be at least 8 characters" required>
                 <button id="submitButton">Login</button>
             </form>
-            <h1>Footer</h1>
         </section>
-        <section>
+        <section> <!--Box Section-->
             <div class="box blue"></div>
             <div class="box red border-yellow"></div>
             <div class="box green"></div>

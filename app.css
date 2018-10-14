@@ -1,11 +1,17 @@
 body {
-    margin: 0em;
+    margin: 0;
 }
 main{
-    margin-left: 5vh;
+    margin: 3vh 0 0 2vh;
 }
 input, label, button {
     display: block;
+}
+form {
+    padding: 1em 1em 1em 1em;
+    margin: 0 auto;
+    width: max-content;
+    border: 0.3em solid #0ea88fec;
 }
 button {
     margin: 1em;
@@ -15,13 +21,24 @@ button {
     padding-left: 2em;
 }
 label {
-    font-size: 2vh;
+    font-size: 3vh;
+}
+.text-center {
+    text-align: center;
+}
+.page-header {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 6vh;
+    text-decoration: underline #6cb1ff;
+    color: #0ea88fec
 }
 .credential-input {
     margin: 0 0 1em 0;
     width: 36vh;
     height: 3vh;
     box-sizing: content-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .box {
     height: 10em;
