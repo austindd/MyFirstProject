@@ -1,14 +1,36 @@
+body {
+    margin: 0em;
+}
+main{
+    margin-left: 5vh;
+}
 input, label, button {
-    display: block 
+    display: block;
+}
+button {
+    margin: 1em;
+}
+#submitButton{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+label {
+    font-size: 2vh;
+}
+.credential-input {
+    margin: 0 0 1em 0;
+    width: 36vh;
+    height: 3vh;
+    box-sizing: content-box;
 }
 .box {
     height: 10em;
-    width: 10em;
+    width: 10rem;
     float: left;
 }
 .border-yellow {
     border: 5px solid goldenrod;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 .red {
     background: red;
