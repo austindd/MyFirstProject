@@ -1,5 +1,8 @@
 body {
+    color: white;
     margin: 0;
+    background: url('./Images/klyck_nebula_remastered-wallpaper-3554x1999.jpg');
+    background-size: cover;
 }
 main{
     margin: 3vh 0 0 2vh;
@@ -7,11 +10,13 @@ main{
 input, label, button {
     display: block;
 }
+hr {
+    width: 60%;
+}
 form {
     padding: 1em 1em 1em 1em;
     margin: 0 auto;
     width: max-content;
-    border: 0.3em solid #0ea88fec;
 }
 button {
     margin: 1em;
@@ -19,9 +24,13 @@ button {
 #submitButton{
     padding-right: 2em;
     padding-left: 2em;
+    margin: 0 auto;
+    width: max-content;
 }
 label {
     font-size: 3vh;
+    margin: 0 0 0 0.4em;
+    width: max-content;
 }
 .text-center {
     text-align: center;
@@ -31,7 +40,7 @@ label {
     font-weight: bold;
     font-size: 6vh;
     text-decoration: underline #6cb1ff;
-    color: #0ea88fec
+    color: #0ea88fec;
 }
 .credential-input {
     margin: 0 0 1em 0;
